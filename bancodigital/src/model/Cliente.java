@@ -10,23 +10,20 @@ public class Cliente {
         this.cpf = cpf;
     }
 
-    public void getNome() {
-        return this.nome;
+    public String getNome() {
+        return nome;
     }
 
-    public void getCpf() {
-        return this.cpf;
-    }
-
-    public String setNome(String nome) {
+    public void setNome(String nome) {
         this.nome = nome;
     }
 
-    public String setCpf(String cpf) {
-        this.cpf = cpf;
+    public String getCpf() {
+        return cpf;
     }
 
-    
-
+    public void setCpf(String cpf) {
+        this.cpf = cpf;
+    }
 
 }
